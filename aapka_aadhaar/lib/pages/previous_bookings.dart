@@ -87,7 +87,7 @@ class _PreviousBookingsState extends State<PreviousBookings> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: NavigationDrawer(),
+      drawer: NavigationDrawer1(),
       appBar: AppBar(
         backgroundColor: Color(0xFFF23F44),
         foregroundColor: Color(0xFFFFFFFF),

@@ -15,14 +15,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class NavigationDrawer extends StatefulWidget {
-  const NavigationDrawer({Key? key}) : super(key: key);
+class NavigationDrawer1 extends StatefulWidget {
+  const NavigationDrawer1({Key? key}) : super(key: key);
 
   @override
-  State<NavigationDrawer> createState() => _NavigationDrawerState();
+  State<NavigationDrawer1> createState() => _NavigationDrawerState();
 }
 
-class _NavigationDrawerState extends State<NavigationDrawer> {
+class _NavigationDrawerState extends State<NavigationDrawer1> {
   final FirebaseAuth auth = FirebaseAuth.instance;
   List info = [];
   late Future data;

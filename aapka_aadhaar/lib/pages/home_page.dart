@@ -531,7 +531,7 @@ class _HomePageState extends State<HomePage> {
               ),
             )
           : null,
-      drawer: NavigationDrawer(),
+      drawer: NavigationDrawer1(),
       appBar: AppBar(
         backgroundColor: Color(0xFFF23F44),
         foregroundColor: Color(0xFFFFFFFF),

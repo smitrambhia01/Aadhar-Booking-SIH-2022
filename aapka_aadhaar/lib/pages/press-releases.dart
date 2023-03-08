@@ -13,7 +13,7 @@ class _PressReleasesState extends State<PressReleases> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: NavigationDrawer(),
+      drawer: NavigationDrawer1(),
       appBar: AppBar(
         title: Text(
           "Press Releases",

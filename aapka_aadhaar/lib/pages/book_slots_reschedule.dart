@@ -272,7 +272,7 @@ class _BookSlotsRescheduleState extends State<BookSlotsReschedule> {
     final args = ModalRoute.of(context)!.settings.arguments;
     print('args $args');
     return Scaffold(
-      drawer: NavigationDrawer(),
+      drawer: NavigationDrawer1(),
       appBar: AppBar(
         backgroundColor: Color(0xFFF23F44),
         foregroundColor: Color(0xFFFFFFFF),
