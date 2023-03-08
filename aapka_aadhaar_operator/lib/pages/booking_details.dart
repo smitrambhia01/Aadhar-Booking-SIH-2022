@@ -399,7 +399,7 @@ class _BookingDetailsState extends State<BookingDetails> {
     final args = ModalRoute.of(context)!.settings.arguments as List;
     print('Args : $args');
     return Scaffold(
-      drawer: NavigationDrawer(),
+      drawer: NavigationDrawer1(),
       appBar: AppBar(
         backgroundColor: Color(0xFFF23F44),
         foregroundColor: Color(0xFFFFFFFF),
